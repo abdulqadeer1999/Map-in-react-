@@ -2,7 +2,7 @@
   function Footer() {
     return (
        <div>
-           <p>This is footer</p>
+           <h3 style = {{backgroundColor : "blueviolet"}}>This is footer</h3>
        </div>
     )
    }

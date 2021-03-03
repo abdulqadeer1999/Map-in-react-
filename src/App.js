@@ -25,7 +25,7 @@ const cities = [
     perception : "80%"
   },
   {
-    city : "khairpur",
+    city : "Khairpur",
     temperature : "40C",
     humadity : "100",
     perception  : "80%"
@@ -42,7 +42,7 @@ const cities = [
     <div>
       
       
- <h1>Hello</h1>
+ <h1 style = {{marginLeft : "250px",color : "blueviolet"}} >This is Heading</h1>
 
  {/* {arr.map((value) => 
    <h2>{value}</h2>
@@ -51,12 +51,17 @@ const cities = [
 
 
  {cities.map((index) =>
- <div key = {index}>  
+ <div key = {index} className= "map">  
+ 
  <h1> city :{index.city}</h1>
- <p> Temp : {index.temperature}</p>
+ 
+ <p> Temp : {index.temperature}  </p>
  <p>Humadity : {index.humadity}</p>
  <p>Perception : {index.perception}</p>
+ 
+ 
 </div>
+
  )}
 
       {/* {[1,2,3,4,5]} */}

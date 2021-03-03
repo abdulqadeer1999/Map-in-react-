@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.map {
+  /* margin-right: 20px; */
+   width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 10px solid #72878f;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaa ;
+  margin-left: 200px;
+
+
+ 
+}
